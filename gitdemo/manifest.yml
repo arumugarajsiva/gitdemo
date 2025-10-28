@@ -1,7 +1,7 @@
 ---
 applications:
 - name: cloudapp2
-  path: target/gitdemo-0.0.1-SNAPSHOT.war
+  path: gitdemo/gtitarget/gitdemo-0.0.1-SNAPSHOT.war
   random-route: true
   memory: 1024M
   buildpacks:
