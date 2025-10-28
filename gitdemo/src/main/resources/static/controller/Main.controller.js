@@ -32,7 +32,8 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 			service.callService("/vendor","GET",{}).then(function(data){
 				var oTable = that.getView().byId("idTable");
 				var oModel = sap.ui.getCore().getModel();
-				oModel.setProperty("/vendor",data._embedded.vendor);
+				/*oModel.setProperty("/vendor",data._embedded.vendor);*/
+				oModel.setProperty("/vendor",data);
 				oTable.bindRows("/vendor");
 			}).catch(function(){
 				
