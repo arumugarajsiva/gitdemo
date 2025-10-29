@@ -1,6 +1,6 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="arum.controller.Main" xmlns:t="sap.ui.table" xmlns:f="sap.ui.layout.form"
 	xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core">
-	<Page id="page1" title="Welcome to UI5">
+	<Page id="page1" title="Welcome to UI5 Training">
 		<Button id="but1" text="Press Me" press="onClick">
 		</Button>
 		
